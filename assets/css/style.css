@@ -52,6 +52,7 @@ button {
     text-align: left;
     cursor: pointer;
 }
+
 .button {
     outline: none;
     border: none;
@@ -60,6 +61,7 @@ button {
     text-align: left;
     cursor: pointer;
 }
+
 .container {
     width: 100%;
 }
@@ -95,6 +97,10 @@ button {
     max-width: 1032px !important;
 }
 
+.blue {
+    color: royalblue;
+}
+
 .f-15 {
     font-size: 15px;
 }
@@ -106,6 +112,7 @@ button {
 .f-25 {
     font-size: 25px;
 }
+
 .f-27 {
     font-size: 27px;
 }
@@ -136,14 +143,17 @@ button {
     position: relative;
     padding: 1px 5%;
 }
-.link{
+
+.link {
     cursor: pointer;
     color: rgb(81, 108, 206);
     text-decoration: none;
 }
-.link:hover{
+
+.link:hover {
     text-decoration: underline;
 }
+
 .nav {
     display: flex;
     position: absolute;
@@ -240,24 +250,31 @@ button {
     width: 20px;
     height: 20px;
 }
-.mt5rem{
+
+.mt5rem {
     margin-top: 5rem;
 }
-.mb2rem{
+
+.mb2rem {
     margin-bottom: 2rem;
 }
-.w10rem{
+
+.w10rem {
     width: 10rem;
 }
-.h10rem{
+
+.h10rem {
     height: 10rem;
 }
-.w5rem{
+
+.w5rem {
     width: 5rem;
 }
-.h5rem{
+
+.h5rem {
     height: 5rem;
 }
+
 .flexCenter {
     display: -webkit-box !important;
     display: -webkit-flex !important;
@@ -317,6 +334,7 @@ button {
 .arrow-right {
     transform: rotate(0deg);
 }
+
 .section-wrapper-right-display {
     position: absolute;
     margin-top: 14.5rem;
@@ -528,7 +546,8 @@ button {
     background-color: #e8e4df;
     z-index: 5;
 }
-.vdo-wrapper{
+
+.vdo-wrapper {
     position: fixed;
     top: 0;
     left: 0;
@@ -537,18 +556,21 @@ button {
     background-color: #11111193;
     padding: 0 5%;
 }
-.vdo-wrapper iframe{
+
+.vdo-wrapper iframe {
     position: relative;
     top: 11rem;
     width: 100%;
     height: calc(100% - 15rem);
 }
+
 .vdo-close {
     position: relative;
     width: 100%;
     display: inline-block;
 }
-.vdo-close>*{
+
+.vdo-close>* {
     position: absolute!important;
     top: 0;
     right: 0;
@@ -565,6 +587,7 @@ button {
 .vdo-close .Button-primary-hover-mask {
     transform: translateX(0%) skew(-9deg);
 }
+
 .skyblockcatia-name-display {
     margin: 70px;
 }
@@ -766,20 +789,25 @@ button {
 .section-margin-top {
     margin-top: 100px;
 }
-.f-auto{
+
+.f-auto {
     font-size: 100px;
 }
-.ml20{
+
+.ml20 {
     margin-left: 20px;
 }
-.section-donation{
+
+.section-donation {
     padding: 0px!important;
 }
-.section-donation-platform{
+
+.section-donation-platform {
     position: relative;
     display: flex;
 }
-.section-donation-platform .button{
+
+.section-donation-platform .button {
     width: 10rem;
     height: 10rem;
     padding: 2rem;
@@ -792,62 +820,78 @@ button {
     justify-content: center;
     margin: 20px;
 }
-.section-donation-platform .button>img{
+
+.section-donation-platform .button>img {
     width: 100%;
 }
-.section-donation-platform .button{
+
+.section-donation-platform .button {
     transition: 0.25s;
 }
-.section-donation-platform .button.patreon{
+
+.section-donation-platform .button.patreon {
     background-color: #ffc890;
 }
-.section-donation-platform .button.youtube{
+
+.section-donation-platform .button.youtube {
     background-color: #ff6657;
 }
-.section-donation-platform .button:hover{
+
+.section-donation-platform .button:hover {
     transform: translateY(10px);
 }
-.section-donation-platform .button.patreon:hover{
+
+.section-donation-platform .button.patreon:hover {
     background-color: #ffb871;
 }
-.section-donation-platform .button.youtube:hover{
+
+.section-donation-platform .button.youtube:hover {
     background-color: #ff4231;
 }
-.section-donation-platform-display{
+
+.section-donation-platform-display {
     width: 100%;
     height: 50rem;
     padding: 0 15rem;
     position: relative;
     color: white;
 }
-.section-donation-platform-display .banner{
+
+.section-donation-platform-display .banner {
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
 }
-.banner-inner .link{
+
+.banner-inner .link {
     color: #585858;
 }
-.banner-inner{
+
+.banner-inner {
     position: relative;
     width: 100%;
     height: 100%;
     transition: transform .4s cubic-bezier(.165, .84, .44, 1), width .3s cubic-bezier(.455, .03, .515, .955), -webkit-transform .4s cubic-bezier(.165, .84, .44, 1);
 }
-.banner-inner.patreon{
+
+.banner-inner.patreon {
     border-left: 1.1rem solid #8a5834;
 }
-.banner-inner.youtube{
+
+.banner-inner.youtube {
     border-left: 1.1rem solid #8a3434;
 }
-.banner .banner-display{
+
+.banner .banner-display {
     position: relative;
 }
-.banner .hind{
+
+.banner .hind {
     transform: translateX(-120%);
 }
-.banner .banner-inner::before{
+
+.banner .banner-inner::before {
     content: "";
     top: 0;
     content: "";
@@ -858,7 +902,8 @@ button {
     height: calc(100% - 1rem);
     pointer-events: none;
 }
-.banner .banner-inner::after{
+
+.banner .banner-inner::after {
     content: "";
     height: 1.1rem;
     bottom: 0;
@@ -872,22 +917,28 @@ button {
     -webkit-transform: skew(45deg);
     transform: skew(-45deg);
 }
-.banner .banner-inner.patreon::before{
+
+.banner .banner-inner.patreon::before {
     background-color: #ffb871;
 }
-.banner .banner-inner.patreon::after{
+
+.banner .banner-inner.patreon::after {
     background-color: #e09e5c;
 }
-.banner .banner-inner.youtube::before{
+
+.banner .banner-inner.youtube::before {
     background-color: #ff7171;
 }
-.banner .banner-inner.youtube::after{
+
+.banner .banner-inner.youtube::after {
     background-color: #e05c5c;
 }
-.banner .text{
+
+.banner .text {
     width: 60%;
     margin-left: 80px;
 }
+
 @media (min-width:1024px) {
     .wow:not(.reee) .bar>div:nth-child(2) {
         display: flex;
@@ -970,11 +1021,13 @@ button {
         transform: translateX(calc(100% - 12.5rem));
     }
 }
-.posre{
+
+.posre {
     position: relative;
 }
+
 @media (max-width:1023px) {
-    .section-wrapper-right-display{
+    .section-wrapper-right-display {
         display: none;
     }
     .Join-discord-button-logo {
@@ -1069,10 +1122,10 @@ button {
         margin-left: 7rem;
         font-size: 7.5rem;
     }
-    .f-auto{
+    .f-auto {
         font-size: 7.5rem;
     }
-    .section-donation-platform-display{
+    .section-donation-platform-display {
         padding: 0px 10%;
     }
 }
@@ -1082,33 +1135,36 @@ button {
         margin-left: 5rem;
         font-size: 5.5rem;
     }
-    .f-auto{
+    .f-auto {
         font-size: 5.5rem;
     }
-    .section-donation-platform-display{
+    .section-donation-platform-display {
         padding: 0px 10%;
     }
 }
+
 @media (max-width:450px) {
     .section-wrapper-slide-up {
         margin-left: 5rem;
         font-size: 4rem;
     }
-    .f-auto{
+    .f-auto {
         font-size: 4rem;
     }
     .skyblockcatia-name-display {
         margin: 10px;
     }
-    .section-donation-platform-display{
+    .section-donation-platform-display {
         padding: 0px 5%;
     }
 }
-@media (max-width:360px){
-    .banner .text{
+
+@media (max-width:360px) {
+    .banner .text {
         white-space: break-spaces;
     }
 }
+
 @media (max-height: 640px) and (min-width: 1024px) {
     .Home {
         height: 48.7rem;
@@ -1129,52 +1185,65 @@ button {
         opacity: 1;
     }
 }
-.mt150f{
+
+.mt150f {
     margin-top: 150px;
 }
-.show-is-mobile{
+
+.show-is-mobile {
     display: none;
 }
-.mobile .show-is-mobile-flex{
+
+.mobile .show-is-mobile-flex {
     display: flex;
 }
-.mobile .hind-is-moblie{
+
+.mobile .hind-is-moblie {
     display: none;
 }
-.mobile .mt150f{
+
+.mobile .mt150f {
     margin: 0;
 }
 
 .reee.wow {
     width: 100%;
 }
+
 .reee .menu {
     margin: auto;
     padding: 20px 5px;
 }
+
 .reee .menu>div:nth-child(1) {
     transform: translateX(25px);
 }
+
 .reee .menu>div:nth-child(2) {
     transform: translateX(90px);
 }
+
 .reee .menu>div:nth-child(3) {
     position: absolute;
     opacity: 1;
     width: 200px;
 }
+
 .reee .menu>div:nth-child(3) {
     animation: hudFlash .1s cubic-bezier(.47, 0, .745, .715) forwards normal;
     animation-iteration-count: 2;
 }
+
 .reee .section-margin-top {
     margin-top: 30rem;
 }
+
 .reee .bar {
     position: absolute;
     right: 10px;
     left: unset;
 }
+
 .reee .bar-mobile {
     position: fixed;
     top: 0;
@@ -1186,12 +1255,14 @@ button {
     background: #212121;
     transition: 0.3s;
 }
+
 .reee .bar>div:nth-child(2)>div:not(.header) {
     width: 100%;
     border-bottom: 1px solid #111111;
     text-align: left;
     padding: 20px;
 }
+
 .reee .bar .header {
     display: flex;
     width: 100%;
@@ -1199,16 +1270,20 @@ button {
     padding: 20px 15px;
     background-color: #111111;
 }
+
 .reee .bar-button {
     display: block;
 }
+
 .reee .bar-button>svg {
     width: 15px;
     height: 15px;
 }
+
 .reee .bar-mobile-button-open {
     padding: 32px 10px;
 }
+
 .reee .bar-close {
     opacity: 0;
     transform: translateX(100%);
